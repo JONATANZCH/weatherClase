@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.dos-columnas {
+  display: grid;
+  gap: 5rem;
+}
+@media (min-width: 768px) {
+  .dos-columnas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

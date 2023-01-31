@@ -1,0 +1,65 @@
+.weatherCard {
+    box-shadow: inset 1px 2px 14px 12px rgba(0,0,0,0.64);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: hidden;
+    color: #fff;
+    width: 300px;
+}
+
+.weatherCard__title {
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: 900;
+}
+.weatherCard__place {
+    margin-bottom: 0;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.weatherCard__temp {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 5px 0;
+    color: #000;
+}
+.weatherCard__list {
+    list-style: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.weatherCard__description {
+    color: rgb(162, 138, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.weatherCard__list span {
+    font-weight: bold;
+}
+
+.weatherCard__btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+.weatherCard__btn:hover {
+    transform: scale(1.08);
+    background: linear-gradient(to left top, #d16ba586, #c777b88b, #b983ca86, #aa8fd88b, #9a9ae18b, #8aa7ec88, #79b2f486, #69bff87a, #52d0fe8b, #41dfff88, #46eefa86, #5ffbf193);
+}
